@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ * The module file for Madlibs.
+ * You can put your hooks and things here. This file is necessary, even if empty.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function madlibs_theme() {
+  return array(
+    'madlibs' => array(
+      'template' => 'madlibs',
+      'path' => drupal_get_path('module', 'madlibs') . '/templates',
+    ),
+  );
+}

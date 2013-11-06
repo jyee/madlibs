@@ -1,0 +1,8 @@
+name: Madlibs
+description: 'A simple Madlib generator.'
+package: PDXDUG
+type: module
+core: 8.x
+dependencies:
+  # Dependencies on hidden modules appears to be broken.
+  #- block

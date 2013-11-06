@@ -1,0 +1,13 @@
+# Very basic page
+# machine name for the route.
+# Convention for machine name is module_name.unique_name
+madlibs.page:
+  # system path that will controlled by function
+  path: '/madlib'
+  defaults:
+    _title: 'Madlib viewer'
+    # Function to that will create content
+    _content: 'Drupal\madlibs\Controller\MadlibsController::page'
+  requirements:
+      # Permission the user must have to view this page.
+      _permission: 'access content'
