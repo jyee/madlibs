@@ -6,7 +6,7 @@ madlibs.page:
   path: '/madlib'
   defaults:
     _title: 'Madlib viewer'
-    # Function to that will create content
+    # Path (starting at /lib), ending file/class, then function name.
     _content: 'Drupal\madlibs\Controller\MadlibsController::page'
   requirements:
       # Permission the user must have to view this page.
