@@ -65,7 +65,7 @@ class MadlibsBlock extends BlockBase {
    */
   public function blockSubmit($form, &$form_state) {
     $this->configuration['madlib_picture_fid'] = $form_state['values']['madlib_picture_fid'];
-    //drupal_set_message($this->t('The {noun} has been {verbed}.'));
+    drupal_set_message($this->t('The {noun} has been {verbed}.'));
   }
 
   /**
